@@ -1,0 +1,184 @@
+
+
+Language:
+----------
+
+	communication-->human
+	
+
+Programming Language:
+=====================	
+		communication-->machine
+
+		-->software--->set of programs-->set of instructions
+
+
+python,java,c,c++,.net
+
+			POP       		    OOP				microsoft
+B,BCPL,C,COBOL,Photon.....		c++,java,python,.net......
+
+
+			1)performance		inheritance,polymorphisam
+			
+			2)security     		encapsulation,abstraction
+			
+			
+			
+			
+	python:
+				Easy 
+				
+				
+				python -->guido van rossam -->1991
+				
+					feb 20th 1991
+			
+			
+java	53
+
+class Welcome{
+
+	public static void main(String args[]){
+	
+	System.out.println("welcome to java")
+	
+	}
+}
+javac filename.java
+java classname
+			
+python:		30+	
+			
+			
+			
+1)functional programming features from C
+2)OOP features from C++
+3)scripting lang features shellscript
+4)modular programming features from modula-3
+
+			syntax-->C,ABC
+			
+
+1)Desktop apps			core python,tkinter	
+			
+2)web apps				Django,flask
+
+3)db apps				PDBC	
+
+4)networking programming 
+
+5)gaming apps
+
+6)data analysis
+
+7)ML
+
+8)AI
+
+10)DS
+
+11)IOT		
+			
+			
+			
+	1.x			
+			
+	2.x		2000
+
+	3.x		2008
+	
+		3.12.3
+			
+			
+features:
+==========
+
+1)simple and easy to learn			
+
+2)freeware and open source    jython
+
+3)high level 
+
+4)protable
+
+5)dynamic typed					int age=123;static typed
+									age=123 dynamic typed		
+6)platform independent
+
+7)rich library
+		
+
+
+flavors:
+		jython javapython
+		cpython
+		ironpython
+
+
+Identifiers:
+============
+any name in python will call it as identifier 
+	variable,class name,obj name,interface,method ....
+	
+	
+		a-z
+		A-Z
+		0-9
+		_
+	
+Datatypes:
+============	
+	
+	int
+	str		'' ""  """  """  ''' '''
+	float
+	bool
+	range
+	complex
+	
+	list
+	set
+	tuple
+	dict
+	frozenset
+	
+	
+	['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue',
+	'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import',
+	'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 
+	'with', 'yield']
+	
+	
+	
+typecasting 
+
+
+
+input	
+	
+	
+	
+		"12"+"13"
+	
+	
+	
+		int()
+		bool()
+		float()
+		complex()
+		str()
+		
+		
+Fundamental DT Immutable		
+	
+	
+	
+	
+	
+	
+		
+
+
+
+
