@@ -143,6 +143,8 @@ Datatypes:
 	dict
 	frozenset
 	
+	import keyword
+	keyword.kwlist
 	
 	['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue',
 	'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import',
@@ -168,17 +170,107 @@ input
 		float()
 		complex()
 		str()
+		input()
+		id()
+		type()
 		
 		
-Fundamental DT Immutable		
+Fundamental DT Immutable-->non-changable	
+	
+	one value 
 	
 	
 	
+	list
+	set
+	tuple
+	dict
+	frozenset
 	
 	
+LIST:
+=====
 	
+	To represent group of objects as a single entity 
+		1)duplicates are allowed
+		2)insertion order is preserved 
+		3)Homogeneous and Heterogeneous are allowed
+		4)growable in nature
+		5)[]
+		6)muttable 
+
+
+		list=[12,23,12,55,32,53] 
+		list1=[12,2.3,"suresh",True,12+5j] 
+Tuple:
+======
+	To represent group of objects as a single entity 
+		1)duplicates are allowed
+		2)insertion order is preserved 
+		3)Homogeneous and Heterogeneous are allowed
+		4)not growable in nature
+		5)()
+		6)imuttable 
 		
-
-
-
-
+		
+Set:		
+=====		
+		To represent group of objects as a single entity 
+		1)duplicates are not allowed
+		2)insertion order is not  preserved 
+		3)Homogeneous and Heterogeneous are allowed
+		4) growable in nature
+		5){}
+		6)muttable 	
+		
+FrozenSet:		
+=========		
+		To represent group of objects as a single entity 
+		1)duplicates are not allowed
+		2)insertion order not is preserved 
+		3)Homogeneous and Heterogeneous are allowed
+		4)not growable in nature
+		5)forzenset()
+		6)imuttable 			
+		
+Dict:
+=====		
+		
+			To represent group of objects as a key,value(entry)
+		1)duplicate keys are not allowed values can be duplicate
+		2)insertion order not is preserved 
+		3)Homogeneous and Heterogeneous are allowed
+		4)growable in nature
+		5){}
+		6)muttable 	
+		
+		.py
+		
+		functional programming 
+		
+			more concise 
+			
+			lambda
+		
+		def add(a,b):
+			..
+			..
+			..
+			return a+b
+			
+			
+			add(1,2)
+			def ,return,methodname,()
+			
+			x=lambda a,b:a+b
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
