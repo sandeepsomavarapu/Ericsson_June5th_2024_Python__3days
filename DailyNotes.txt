@@ -450,3 +450,15 @@ ValueError: invalid literal for int() with base 10: 'sandeep'
 			except:
 			finally:
 					
+
+
+
+take the age from end user if age is below 18 raise invalidage exception else print allowed to vote 
+
+
+
+
+
+
+
+
