@@ -265,12 +265,188 @@ Dict:
 			x=lambda a,b:a+b
 			
 			
+		R
+		A
+		W
 			
 			
 			
 			
+			ctrl+~
 			
 			
+
+Inheritance:
+=============
+
+class A:
+
+
+
+class B(A):
+
+
+
+Multiple inheritance
+
+	many parents and single child
+	
+	single
+	multi level
+	multiple
+	hirarchie
+	
+
+	class A				class B
+	
+		m2()			m1()
+	
+	
+	
+		class C(B,A)
+			
+				c=C()
+				c.m1()
+			
+			__init__(self)
 			
 			
+	class Test:
+		marks=123
+		name="sandeep"		#pvm  __init__()
+		
+		def m1():
+		
+			return "welcome"
+		
+		def m2():
+		
+	test=Test()	#constructor calling
+		
+		
+Exception Handling:
+===================		
+
+
+
+	1) system defined error message 
+	
+	Traceback (most recent call last):
+  File "D:\Python FullStack\PDW F Folder\PYTHON\PYTHON\examples\core ex\4 elseif.py", line 4, in <module>
+    Totalmarks = int(input(" Please Enter Your Total Marks:  "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'sandeep'
+	
+	2)abnormal termination
+	
+	
+	1	---->stop
+	2
+	3
+	
+	
+	
+	
+	10000
+	
+	
+	
+	Enter marks only in numbers 
+	
+	
+		
+		user friendly error message 
+		
+		normal termination
 			
+			
+	Exception hirarchie:
+	===================
+	
+								BaseException
+								
+						Exception		
+
+
+	keywords
+	
+	
+		try		--->error code /risky code 
+		
+		except  ---->handling code 
+		
+		finally --->cleanup code 
+		
+		raise	-->to raise an exception explicitly 
+		
+		
+		user defined exception
+		
+1)	class InvalidCredentials(Exception)
+
+2)  parametrized constructor 
+		
+		
+		
+1)		try:								invalid							
+			print("hello")
+			
+2)		except:								invalid
+
+3)		else:								invalid			
+
+4)		finally:							invalid
+
+5)		try:
+											 valid
+		except:	
+		
+6)		try:
+											 valid	
+		finally:
+
+7)		try :
+		except :							 valid
+		else:
+		
+8)		try:								invalid
+		else:					
+
+9)		try:								invalid
+		else:								
+		finally:
+		
+10)		try:								valid
+		except XXX:
+		except XXX:
+		
+11)		try:
+		except:
+		except:								invalid
+		finally:
+		finally:
+
+12)    try:
+			print("inside try")
+	   print("outside try")					invalid
+	   except XXX:
+			
+13)		try
+		except
+		try									valid
+		except
+		try
+		except
+		
+14)		try:
+			try:							valid
+			except:
+			finally:
+		except:
+15)		try:
+			
+		except:
+			try:							valid
+			except:
+			finally:
+					
